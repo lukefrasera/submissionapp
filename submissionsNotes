@@ -1,0 +1,51 @@
+// Submissions
+
+Features:
+	Give necessary files
+	search for missing files
+	Fill in base data fields
+	provide storage of templates <XML><YAML>
+	Screenshots help
+
+
+Implimentation notes:
+
+	Feature: Give necessary files
+
+		Walk directory to determine if necessary files are provided.
+
+		Choose previous game to model after
+
+	Feature: Screenshots
+
+		Provide steps of necessary screenshots
+
+		use screenshots to procure information(maybe)
+
+
+
+
+Different Setup:
+
+	Different games require a different setup.
+
+	Respin require mod docs
+
+
+
+Notes:
+	There is a naming convention used on all files for submissions. 
+
+	There is a folder structure to the submission as well.
+
+
+Necessary Game info:
+
+	Studio
+	name
+	Agile number
+	md5sum
+	CRC
+	paytable id, odds, payout percentage, reels, numer of lines, max bet
+
+	

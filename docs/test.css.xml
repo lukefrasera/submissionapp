@@ -1,0 +1,15 @@
+<doc name="sd1_prn" type=".doc">
+	<file name="Nameing_Convention" type=".doc" />
+	<title font="Arial" size="22" style="bold">
+		gameName
+	</title>
+	<credits font="Arial" size="18">
+		<list delimiter=",">credits
+		</list>
+	</credits>
+	<percentages font="Arial" size="18">
+		<list delimiter="/">
+			percentages
+		</list>
+	</percentages>
+</doc>

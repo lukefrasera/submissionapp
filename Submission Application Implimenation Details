@@ -1,0 +1,55 @@
+Submission Application Implimenation Details
+
+
+	Feature: Necessary Files
+
+		The necessary files are derived from a previous submissin, a merging of several previous submissions, or by selecting from a list of descriptors to determine the necessary files required to submit.
+
+	Implimentation Details:
+
+		Setup:
+			Submission details are held in a template format XML files. Files can be added/imported in as base files for newer submissions as changes in the way a submission is handeled and as updates occur.
+
+			The user is prompted to select one of the starting choices
+				- Merge between two templates
+				- Create new Template
+				- Select previous Template
+
+		Create New:
+
+			- Check off a list criteria from XML file of descriptors corresponding to files.
+			- Add new file and a descriptor if a new template is to be created.
+
+		Modify Old:
+
+			- check off a list critera from XML file of decriptors
+			- Add new files
+
+		Use previous:
+
+			- Simply use a previous template
+
+		Once template is setup then you procede to the next step. In the next step the base files are imported and updated as far as they can be from the information given. The remaining changes required are listed in a file and the user can then update the files.
+
+		Parsing Files:
+
+			- Each file contains tags with descriptors of the informations rewquired for submission. Depending on the tag the game specific information will be placed in that field. There can be tag that is placed in the file that allows for the user to input the data himself.
+
+
+	TAG Information: File Structure
+
+		Initial setup file tags information:
+
+			- This file contains the information about the current saved tamplates and files that are avilable to the package. This can differ depending on the user if implimented for private system use. Or this could be a reference to the network and work globally for all users.
+
+			- TAGS:
+
+				- [File tags] Tags that are to represnt files 
+					-[url or path tag]
+					-[naming convention]
+					-[file editing setup]
+					-[tags in file]
+				- [stored templates]
+					-[file template tag]
+						-[jurisdiction information]
+					-[name]
